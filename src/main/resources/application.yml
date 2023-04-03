@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3307/daily_blog_apis
+  jpa:
+    properties:
+      dialect : org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+
+
+
+
+
+

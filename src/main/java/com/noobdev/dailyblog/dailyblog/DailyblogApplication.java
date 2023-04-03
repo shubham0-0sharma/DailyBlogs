@@ -8,6 +8,8 @@ public class DailyblogApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DailyblogApplication.class, args);
+
 	}
 
 }
+
